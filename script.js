@@ -4,6 +4,6 @@ const button= document.getElementById("incrementBtn");
 
 button.addEventListener("click", ()=>{
 	const currentValue= parseInt(counter.textContent);
-	alert(`Current Value before increment: ${currentValue}`);
+	alert(currentValue);
 	counter.textContent=currentValue +1;
 });
